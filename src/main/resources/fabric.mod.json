@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "morenetherbiomes",
+	"version": "${version}",
+	"name": "More Nether Biomes",
+	"description": "A small mod to expand on the Nether and Nether Update, adding new biomes and features to them.",
+	"authors": [
+		"Snowcraft"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/more-nether-biomes/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"snowcraft.morenetherbiomes.MoreNetherBiomes"
+		],
+		"client": [
+			"snowcraft.morenetherbiomes.MoreNetherBiomesClient"
+		],
+		"fabric-datagen": [
+			"snowcraft.morenetherbiomes.MoreNetherBiomesDataGenerator"
+		]
+	},
+	"mixins": [
+		"more-nether-biomes.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
