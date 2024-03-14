@@ -20,9 +20,6 @@ public class ModModelProvider extends FabricModelProvider {
         smoothashstonePool.stairs(ModBlocks.SMOOTH_ASHSTONE_STAIRS);
         smoothashstonePool.slab(ModBlocks.SMOOTH_ASHSTONE_SLAB);
 
-        blockStateModelGenerator.registerDoor(ModBlocks.SMOOTH_ASHSTONE_STAIRS);
-        blockStateModelGenerator.registerTrapdoor(ModBlocks.SMOOTH_ASHSTONE_SLAB);
-
     }
 
     @Override
