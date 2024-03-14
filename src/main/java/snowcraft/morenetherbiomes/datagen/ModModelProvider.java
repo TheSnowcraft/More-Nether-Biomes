@@ -15,15 +15,10 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        BlockStateModelGenerator.BlockTexturePool smoothashstonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_ASHSTONE_BLOCK);
-
-        smoothashstonePool.stairs(ModBlocks.SMOOTH_ASHSTONE_STAIRS);
-        smoothashstonePool.slab(ModBlocks.SMOOTH_ASHSTONE_SLAB);
 
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(ModItems.ASH, Models.GENERATED);
     }
 }

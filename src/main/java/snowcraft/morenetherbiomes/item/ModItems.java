@@ -12,17 +12,11 @@ import net.minecraft.item.Item;
 import net.minecraft.registry.Registry;
 
 public class ModItems {
-    public static final Item ASH = registerItem( "ash", new Item(new FabricItemSettings()));
-
-    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(ASH);
-    }
+    public static final Item EXAMPLE = registerItem( "example", new Item(new FabricItemSettings()));
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MoreNetherBiomes.MOD_ID, name), item);
     }
     public static void registerModItems() {
         MoreNetherBiomes.LOGGER.info("Registering Mod Items for " + MoreNetherBiomes.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
     }
 }

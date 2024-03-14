@@ -16,7 +16,6 @@ public class ModItemGroups {
             new Identifier(MoreNetherBiomes.MOD_ID, "morenetherbiomesgroup"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.morenetherbiomesgroup"))
                     .icon(() -> new ItemStack(ModItems.ASH)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.ASH);
                         entries.add(ModBlocks.ASH_BLOCK);
                         entries.add(ModBlocks.ASHSTONE_BLOCK);
                         entries.add(ModBlocks.ASHSTONE_STAIRS);

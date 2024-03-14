@@ -1,9 +1,8 @@
 {
-  "parent": "block/orientable",
+  "parent": "block/cube_bottom_top",
   "textures": {
     "top": "morenetherbiomes:block/ashstone_top",
     "side": "morenetherbiomes:block/ashstone",
-    "front": "morenetherbiomes:block/ashstone",
     "bottom": "morenetherbiomes:block/ashstone_bottom"
   }
 }

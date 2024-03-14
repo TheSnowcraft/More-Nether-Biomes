@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "morenetherbiomes:block/smooth_ashstone_block",
-    "side": "morenetherbiomes:block/smooth_ashstone_block",
-    "top": "morenetherbiomes:block/smooth_ashstone_block"
-  }
-}

@@ -19,7 +19,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider  {
             .add(ModBlocks.ASHSTONE_BLOCK)
             .add(ModBlocks.CUT_ASHSTONE_BLOCK)
             .add(ModBlocks.SMOOTH_ASHSTONE_BLOCK)
-            .add(ModBlocks.CHISELED_ASHSTONE_BLOCK);
+            .add(ModBlocks.CHISELED_ASHSTONE_BLOCK)
+            .add(ModBlocks.ASHSTONE_SLAB)
+            .add(ModBlocks.ASHSTONE_STAIRS)
+            .add(ModBlocks.ASHSTONE_WALL)
+            .add(ModBlocks.SMOOTH_ASHSTONE_SLAB)
+            .add(ModBlocks.SMOOTH_ASHSTONE_STAIRS)
+            .add(ModBlocks.CUT_ASHSTONE_SLAB);
+
 
         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
                 .add(ModBlocks.ASH_BLOCK);

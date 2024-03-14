@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "morenetherbiomes:block/ashstone_slab"
+    },
+    "type=double": {
+      "model": "morenetherbiomes:block/ashstone_block"
+    },
+    "type=top": {
+      "model": "morenetherbiomes:block/ashstone_slab_top"
+    }
+  }
+}

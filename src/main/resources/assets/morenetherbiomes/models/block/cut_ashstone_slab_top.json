@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "morenetherbiomes:block/ashstone_top",
+    "side": "morenetherbiomes:block/cut_ashstone",
+    "top": "morenetherbiomes:block/ashstone_top"
+  }
+}

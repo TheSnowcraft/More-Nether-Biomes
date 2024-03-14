@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "morenetherbiomes:block/ashstone_bottom",
+    "side": "morenetherbiomes:block/ashstone",
+    "top": "morenetherbiomes:block/ashstone_top"
+  }
+}
