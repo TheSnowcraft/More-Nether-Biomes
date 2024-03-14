@@ -1,9 +1,11 @@
 package snowcraft.morenetherbiomes;
 
 import net.fabricmc.api.ModInitializer;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import snowcraft.morenetherbiomes.block.ModBlocks;
+import snowcraft.morenetherbiomes.item.ModItems;
+import snowcraft.morenetherbiomes.item.ModItemGroups;
 
 public class MoreNetherBiomes implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
@@ -17,7 +19,8 @@ public class MoreNetherBiomes implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

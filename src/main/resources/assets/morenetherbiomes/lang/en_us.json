@@ -1,0 +1,18 @@
+{
+  "item.morenetherbiomes.ash": "Ash",
+
+  "block.morenetherbiomes.ash_block": "Ash Block",
+  "block.morenetherbiomes.ashstone_block": "Ashstone Block",
+  "block.morenetherbiomes.cut_ashstone_block": "Cut Ashstone Block",
+  "block.morenetherbiomes.smooth_ashstone_block": "Smooth Ashstone Block",
+  "block.morenetherbiomes.chiseled_ashstone_block": "Chiseled Ashstone Block",
+
+  "block.morenetherbiomes.ashstone_slab": "Ashstone Slab",
+  "block.morenetherbiomes.ashstone_stairs": "Ashstone Stairs",
+  "block.morenetherbiomes.ashstone_wall": "Ashstone Wall",
+  "block.morenetherbiomes.smooth_ashstone_slab": "SmoothAshstone Slab",
+  "block.morenetherbiomes.smooth_ashstone_stairs": "Smooth Ashstone Stairs",
+  "block.morenetherbiomes.cut_ashstone_slab": "Cut Ashstone Slab",
+
+  "itemgroup.morenetherbiomesgroup": "More Nether Biomes"
+}

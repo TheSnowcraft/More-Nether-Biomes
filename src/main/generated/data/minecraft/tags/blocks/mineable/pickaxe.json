@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "morenetherbiomes:ashstone_block",
+    "morenetherbiomes:cut_ashstone_block",
+    "morenetherbiomes:smooth_ashstone_block",
+    "morenetherbiomes:chiseled_ashstone_block"
+  ]
+}
