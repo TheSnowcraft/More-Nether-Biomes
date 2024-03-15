@@ -27,9 +27,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider  {
             .add(ModBlocks.SMOOTH_ASHSTONE_STAIRS)
             .add(ModBlocks.CUT_ASHSTONE_SLAB);
 
-
         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
                 .add(ModBlocks.ASH_BLOCK);
+
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.ASHWOOD_FENCE);
+
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.ASHWOOD_FENCE_GATE);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.ASHSTONE_WALL);

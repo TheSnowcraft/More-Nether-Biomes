@@ -14,5 +14,18 @@
   "block.morenetherbiomes.smooth_ashstone_stairs": "Smooth Ashstone Stairs",
   "block.morenetherbiomes.cut_ashstone_slab": "Cut Ashstone Slab",
 
+  "block.morenetherbiomes.ashwood_planks": "Ashwood Planks",
+  "block.morenetherbiomes.ashwood_slab": "Ashwood Slab",
+  "block.morenetherbiomes.ashwood_stairs": "Ashwood Stairs",
+  "block.morenetherbiomes.ashwood_button": "Ashwood Button",
+  "block.morenetherbiomes.ashwood_pressure_plate": "Ashwood Pressure Plate",
+  "block.morenetherbiomes.ashwood_fence": "Ashwood Fence",
+  "block.morenetherbiomes.ashwood_fence_gate": "Ashwood Fence Gate",
+  "block.morenetherbiomes.ashwood_door": "Ashwood Door",
+  "block.morenetherbiomes.ashwood_trapdoor": "Ashwood Trapdoor",
+  "block.morenetherbiomes.ashwood_standing_sign": "Ashwood Sign",
+  "block.morenetherbiomes.ashwood_hanging_sign": "Ashwood Hanging Sign",
+
+
   "itemgroup.morenetherbiomesgroup": "More Nether Biomes"
 }
