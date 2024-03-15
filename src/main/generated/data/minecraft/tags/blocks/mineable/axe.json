@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "morenetherbiomes:ashwood_planks",
+    "morenetherbiomes:ashwood_stairs",
+    "morenetherbiomes:ashwood_slab",
+    "morenetherbiomes:ashwood_button",
+    "morenetherbiomes:ashwood_pressure_plate",
+    "morenetherbiomes:ashwood_fence",
+    "morenetherbiomes:ashwood_fence_gate",
+    "morenetherbiomes:ashwood_door",
+    "morenetherbiomes:ashwood_trapdoor"
+  ]
+}

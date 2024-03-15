@@ -27,16 +27,27 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider  {
             .add(ModBlocks.SMOOTH_ASHSTONE_STAIRS)
             .add(ModBlocks.CUT_ASHSTONE_SLAB);
 
-        getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
-                .add(ModBlocks.ASH_BLOCK);
+        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(ModBlocks.ASHWOOD_PLANKS)
+                .add(ModBlocks.ASHWOOD_STAIRS)
+                .add(ModBlocks.ASHWOOD_SLAB)
+                .add(ModBlocks.ASHWOOD_BUTTON)
+                .add(ModBlocks.ASHWOOD_PRESSURE_PLATE)
+                .add(ModBlocks.ASHWOOD_FENCE)
+                .add(ModBlocks.ASHWOOD_FENCE_GATE)
+                .add(ModBlocks.ASHWOOD_DOOR)
+                .add(ModBlocks.ASHWOOD_TRAPDOOR);
 
-        getOrCreateTagBuilder(BlockTags.FENCES)
-                .add(ModBlocks.ASHWOOD_FENCE);
+    getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
+            .add(ModBlocks.ASH_BLOCK);
 
-        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
-                .add(ModBlocks.ASHWOOD_FENCE_GATE);
+    getOrCreateTagBuilder(BlockTags.FENCES)
+            .add(ModBlocks.ASHWOOD_FENCE);
 
-        getOrCreateTagBuilder(BlockTags.WALLS)
-                .add(ModBlocks.ASHSTONE_WALL);
+    getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+            .add(ModBlocks.ASHWOOD_FENCE_GATE);
+
+    getOrCreateTagBuilder(BlockTags.WALLS)
+            .add(ModBlocks.ASHSTONE_WALL);
     }
 }

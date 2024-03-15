@@ -51,7 +51,7 @@ public class ModBlocks {
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS), BlockSetType.CRIMSON));
     public static final Block ASHWOOD_FENCE = registerBlock("ashwood_fence",
             new FenceBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS)));
-    public static final Block ASHWOOD_FENCE_GATE = registerBlock("ashwood_fencegate",
+    public static final Block ASHWOOD_FENCE_GATE = registerBlock("ashwood_fence_gate",
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS), WoodType.CRIMSON));
     public static final Block ASHWOOD_DOOR = registerBlock("ashwood_door",
             new DoorBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS), BlockSetType.CRIMSON));
