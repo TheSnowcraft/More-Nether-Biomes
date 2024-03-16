@@ -1,6 +1,7 @@
 package snowcraft.morenetherbiomes;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import snowcraft.morenetherbiomes.block.ModBlocks;
@@ -22,5 +23,6 @@ public class MoreNetherBiomes implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		StrippableBlockRegistry.register(ModBlocks.ASH_CACTUS_STEM, ModBlocks.ASH_CACTUS_STEM_STRIPPED);
 	}
 }
