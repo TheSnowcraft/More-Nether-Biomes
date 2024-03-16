@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "morenetherbiomes:block/ashwood_door_bottom",
+    "top": "morenetherbiomes:block/ashwood_door_top"
+  }
+}

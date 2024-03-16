@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "morenetherbiomes:item/ashwood_door"
+  }
+}

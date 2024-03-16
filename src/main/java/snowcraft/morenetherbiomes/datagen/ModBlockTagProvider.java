@@ -41,7 +41,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider  {
     getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
             .add(ModBlocks.ASH_BLOCK);
 
-    getOrCreateTagBuilder(BlockTags.FENCES)
+    getOrCreateTagBuilder(BlockTags.WOODEN_FENCES)
             .add(ModBlocks.ASHWOOD_FENCE);
 
     getOrCreateTagBuilder(BlockTags.FENCE_GATES)

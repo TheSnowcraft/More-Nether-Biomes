@@ -39,37 +39,41 @@ public class ModBlocks {
     public static final Block CUT_ASHSTONE_SLAB = registerBlock("cut_ashstone_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE).mapColor(MapColor.LIGHT_GRAY)));
 
+    public static final Block ASH_CACTUS_STEM = registerBlock("ash_cactus",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_STEM).mapColor(MapColor.TERRACOTTA_BLACK)));
+    public static final Block ASH_CACTUS_STEM_STRIPPED = registerBlock("ash_cactus_stripped",
+            new Block(FabricBlockSettings.copyOf(Blocks.STRIPPED_CRIMSON_STEM).mapColor(MapColor.TERRACOTTA_BLACK)));
     public static final Block ASHWOOD_PLANKS = registerBlock("ashwood_planks",
-            new Block(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS)));
+            new Block(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).mapColor(MapColor.TERRACOTTA_BLACK)));
     public static final Block ASHWOOD_STAIRS = registerBlock("ashwood_stairs",
-            new StairsBlock(ModBlocks.ASHWOOD_PLANKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS)));
+            new StairsBlock(ModBlocks.ASHWOOD_PLANKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).mapColor(MapColor.TERRACOTTA_BLACK)));
     public static final Block ASHWOOD_SLAB = registerBlock("ashwood_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS)));
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).mapColor(MapColor.TERRACOTTA_BLACK)));
     public static final Block ASHWOOD_BUTTON = registerBlock("ashwood_button",
-            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS), BlockSetType.CRIMSON, 10, true));
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).mapColor(MapColor.TERRACOTTA_BLACK), BlockSetType.CRIMSON, 10, true));
     public static final Block ASHWOOD_PRESSURE_PLATE = registerBlock("ashwood_pressure_plate",
-            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS), BlockSetType.CRIMSON));
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).mapColor(MapColor.TERRACOTTA_BLACK), BlockSetType.CRIMSON));
     public static final Block ASHWOOD_FENCE = registerBlock("ashwood_fence",
-            new FenceBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS)));
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).mapColor(MapColor.TERRACOTTA_BLACK)));
     public static final Block ASHWOOD_FENCE_GATE = registerBlock("ashwood_fence_gate",
-            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS), WoodType.CRIMSON));
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).mapColor(MapColor.TERRACOTTA_BLACK), WoodType.CRIMSON));
     public static final Block ASHWOOD_DOOR = registerBlock("ashwood_door",
-            new DoorBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS), BlockSetType.CRIMSON));
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).mapColor(MapColor.TERRACOTTA_BLACK), BlockSetType.CRIMSON));
     public static final Block ASHWOOD_TRAPDOOR = registerBlock("ashwood_trapdoor",
-            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).nonOpaque(), BlockSetType.CRIMSON));
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).mapColor(MapColor.TERRACOTTA_BLACK).nonOpaque(), BlockSetType.CRIMSON));
 
     public static final Identifier ASHWOOD_SIGN_TEXTURE = new Identifier(MoreNetherBiomes.MOD_ID, "entity/signs/ashwood");
     public static final Identifier ASHWOOD_HANGING_SIGN_TEXTURE = new Identifier(MoreNetherBiomes.MOD_ID, "entity/signs/hanging/ashwood");
     public static final Identifier ASHWOOD_HANGING_GUI_SIGN_TEXTURE = new Identifier(MoreNetherBiomes.MOD_ID, "textures/gui/hanging_signs/ashwood");
 
     public static final Block STANDING_ASHWOOD_SIGN = Registry.register(Registries.BLOCK, new Identifier(MoreNetherBiomes.MOD_ID, "ashwood_standing_sign"),
-            new TerraformSignBlock(ASHWOOD_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_SIGN)));
+            new TerraformSignBlock(ASHWOOD_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_SIGN).mapColor(MapColor.TERRACOTTA_BLACK)));
     public static final Block WALL_ASHWOOD_SIGN = Registry.register(Registries.BLOCK, new Identifier(MoreNetherBiomes.MOD_ID, "ashwood_wall_sign"),
-            new TerraformWallSignBlock(ASHWOOD_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_WALL_SIGN)));
+            new TerraformWallSignBlock(ASHWOOD_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_WALL_SIGN).mapColor(MapColor.TERRACOTTA_BLACK)));
     public static final Block HANGING_ASHWOOD_SIGN = Registry.register(Registries.BLOCK, new Identifier(MoreNetherBiomes.MOD_ID, "ashwood_hanging_sign"),
-            new TerraformHangingSignBlock(ASHWOOD_HANGING_SIGN_TEXTURE, ASHWOOD_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_HANGING_SIGN)));
+            new TerraformHangingSignBlock(ASHWOOD_HANGING_SIGN_TEXTURE, ASHWOOD_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_HANGING_SIGN).mapColor(MapColor.TERRACOTTA_BLACK)));
     public static final Block WALL_HANGING_ASHWOOD_SIGN = Registry.register(Registries.BLOCK, new Identifier(MoreNetherBiomes.MOD_ID, "ashwood_wall_hanging_sign"),
-            new TerraformHangingSignBlock(ASHWOOD_HANGING_SIGN_TEXTURE, ASHWOOD_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_WALL_HANGING_SIGN)));
+            new TerraformHangingSignBlock(ASHWOOD_HANGING_SIGN_TEXTURE, ASHWOOD_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_WALL_HANGING_SIGN).mapColor(MapColor.TERRACOTTA_BLACK)));
 
     public static final BlockFamily ASHWOOD_FAMILY = BlockFamilies.register(ModBlocks.ASHWOOD_PLANKS)
             .sign(ModBlocks.STANDING_ASHWOOD_SIGN, ModBlocks.WALL_ASHWOOD_SIGN)

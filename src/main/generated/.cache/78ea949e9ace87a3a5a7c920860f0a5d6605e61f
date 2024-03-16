@@ -1,6 +1,7 @@
-// 1.20.1	2024-03-14T23:29:47.2612215	More Nether Biomes/Tags for minecraft:block
+// 1.20.1	2024-03-15T23:47:07.8458865	More Nether Biomes/Tags for minecraft:block
 08efd8f56fd7f6820dff46b0ff0a5bf4c947ee39 data\minecraft\tags\blocks\mineable\shovel.json
+085db90cd4cefbaa2a9835dfa6024763db638d04 data\minecraft\tags\blocks\mineable\axe.json
 2fb7743fdc3f4c41e8dc535acc8ef1e54f6d52e8 data\minecraft\tags\blocks\walls.json
-b41b1b7ea80dc62aefd45c0ed12230fc659d52d1 data\minecraft\tags\blocks\fences.json
-b8daad9750bd1093089f92d4182064ffd5a4df05 data\minecraft\tags\blocks\fence_gates.json
+68fb8ffbe3396199dc48398bf1b9048f89958a99 data\minecraft\tags\blocks\fence_gates.json
 74e34ae971358ed6dd8c05f6b52a8b96eaf9df84 data\minecraft\tags\blocks\mineable\pickaxe.json
+b41b1b7ea80dc62aefd45c0ed12230fc659d52d1 data\minecraft\tags\blocks\wooden_fences.json

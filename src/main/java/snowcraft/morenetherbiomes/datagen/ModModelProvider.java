@@ -27,13 +27,14 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoor(ModBlocks.ASHWOOD_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.ASHWOOD_TRAPDOOR);
 
+        blockStateModelGenerator.registerLog(ModBlocks.ASH_CACTUS_STEM);
+        blockStateModelGenerator.registerLog(ModBlocks.ASH_CACTUS_STEM_STRIPPED);
+
         ashwoodPool.family(ModBlocks.ASHWOOD_FAMILY);
 
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(ModItems.STANDING_ASHWOOD_SIGN, Models.GENERATED);
-        itemModelGenerator.register(ModItems.HANGING_ASHWOOD_SIGN, Models.GENERATED);
     }
 }

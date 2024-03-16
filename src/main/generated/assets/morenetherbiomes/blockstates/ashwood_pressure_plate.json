@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "morenetherbiomes:block/ashwood_pressure_plate"
+    },
+    "powered=true": {
+      "model": "morenetherbiomes:block/ashwood_pressure_plate_down"
+    }
+  }
+}
