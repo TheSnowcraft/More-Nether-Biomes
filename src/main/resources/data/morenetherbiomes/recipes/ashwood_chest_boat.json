@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "chest_boat",
+  "ingredients": [
+    {
+      "item": "morenetherbiomes:chest"
+    },
+    {
+      "item": "morenetherbiomes:ashwood_boat"
+    }
+  ],
+  "result": {
+    "item": "morenetherbiomes:ashwood_chest_boat"
+  }
+}

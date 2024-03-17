@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": [
+      {
+        "item": "morenetherbiomes:ashstone_block"
+      },
+      {
+        "item": "morenetherbiomes:chiseled_ashstone_block"
+      },
+      {
+        "item": "morenetherbiomes:cut_ashstone_block"
+      }
+    ]
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "morenetherbiomes:ashstone_stairs"
+  },
+  "show_notification": true
+}

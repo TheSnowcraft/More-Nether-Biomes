@@ -23,6 +23,5 @@ public class MoreNetherBiomes implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-		StrippableBlockRegistry.register(ModBlocks.ASH_CACTUS_STEM, ModBlocks.ASH_CACTUS_STEM_STRIPPED);
 	}
 }

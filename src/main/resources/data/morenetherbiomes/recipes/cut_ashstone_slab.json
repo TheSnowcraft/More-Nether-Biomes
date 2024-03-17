@@ -3,15 +3,15 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "morenetherbiomes:ashstone_block"
+      "item": "morenetherbiomes:cut_ashstone_block"
     }
   },
   "pattern": [
-    "##",
-    "##"
+    "###"
   ],
   "result": {
-    "item": "morenetherbiomes:cut_ashstone_block"
+    "count": 6,
+    "item": "morenetherbiomes:cut_ashstone_slab"
   },
   "show_notification": true
 }

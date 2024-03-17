@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "morenetherbiomes:cut_ashstone_block"
+  },
+  "result": "morenetherbiomes:cut_ashstone_slab"
+}

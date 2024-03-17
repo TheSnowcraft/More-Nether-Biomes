@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "morenetherbiomes:ashwood_planks"
+    }
+  ],
+  "result": {
+    "item": "morenetherbiomes:ashwood_button"
+  }
+}
