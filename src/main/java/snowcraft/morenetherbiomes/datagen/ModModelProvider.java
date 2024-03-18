@@ -36,5 +36,10 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+
+        itemModelGenerator.register(ModItems.HANGING_ASHWOOD_SIGN, Models.GENERATED);
+
+        //itemModelGenerator.register(ModItems.ASHWOOD_BOAT, Models.GENERATED);
+        //itemModelGenerator.register(ModItems.ASHWOOD_CHEST_BOAT, Models.GENERATED);
     }
 }
