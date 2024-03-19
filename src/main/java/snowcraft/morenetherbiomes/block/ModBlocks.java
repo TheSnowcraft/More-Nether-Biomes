@@ -2,6 +2,7 @@ package snowcraft.morenetherbiomes.block;
 
 import com.terraformersmc.terraform.sign.block.TerraformHangingSignBlock;
 import com.terraformersmc.terraform.sign.block.TerraformSignBlock;
+import com.terraformersmc.terraform.sign.block.TerraformWallHangingSignBlock;
 import com.terraformersmc.terraform.sign.block.TerraformWallSignBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -67,16 +68,16 @@ public class ModBlocks {
     public static final Identifier ASHWOOD_HANGING_GUI_SIGN_TEXTURE = new Identifier(MoreNetherBiomes.MOD_ID, "textures/gui/hanging_signs/ashwood");
 
     public static final Block STANDING_ASHWOOD_SIGN = Registry.register(Registries.BLOCK, new Identifier(MoreNetherBiomes.MOD_ID, "ashwood_standing_sign"),
-            new TerraformSignBlock(ASHWOOD_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_SIGN).mapColor(MapColor.TERRACOTTA_BLACK)));
+            new TerraformSignBlock(ASHWOOD_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.CRIMSON_SIGN).mapColor(MapColor.TERRACOTTA_BLACK)));
     public static final Block WALL_ASHWOOD_SIGN = Registry.register(Registries.BLOCK, new Identifier(MoreNetherBiomes.MOD_ID, "ashwood_wall_sign"),
-            new TerraformWallSignBlock(ASHWOOD_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_WALL_SIGN).mapColor(MapColor.TERRACOTTA_BLACK)));
+            new TerraformWallSignBlock(ASHWOOD_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.CRIMSON_WALL_SIGN).mapColor(MapColor.TERRACOTTA_BLACK)));
     public static final Block HANGING_ASHWOOD_SIGN = Registry.register(Registries.BLOCK, new Identifier(MoreNetherBiomes.MOD_ID, "ashwood_hanging_sign"),
-            new TerraformHangingSignBlock(ASHWOOD_HANGING_SIGN_TEXTURE, ASHWOOD_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_HANGING_SIGN).mapColor(MapColor.TERRACOTTA_BLACK)));
+            new TerraformHangingSignBlock(ASHWOOD_HANGING_SIGN_TEXTURE, ASHWOOD_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.CRIMSON_HANGING_SIGN).mapColor(MapColor.TERRACOTTA_BLACK)));
     public static final Block WALL_HANGING_ASHWOOD_SIGN = Registry.register(Registries.BLOCK, new Identifier(MoreNetherBiomes.MOD_ID, "ashwood_wall_hanging_sign"),
-            new TerraformHangingSignBlock(ASHWOOD_HANGING_SIGN_TEXTURE, ASHWOOD_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_WALL_HANGING_SIGN).mapColor(MapColor.TERRACOTTA_BLACK)));
+            new TerraformWallHangingSignBlock(ASHWOOD_HANGING_SIGN_TEXTURE, ASHWOOD_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.CRIMSON_WALL_HANGING_SIGN).mapColor(MapColor.TERRACOTTA_BLACK)));
 
     public static final BlockFamily ASHWOOD_FAMILY = BlockFamilies.register(ModBlocks.ASHWOOD_PLANKS)
-            .sign(ModBlocks.STANDING_ASHWOOD_SIGN, ModBlocks.WALL_ASHWOOD_SIGN)
+            .sign(ModBlocks.STANDING_ASHWOOD_SIGN, ModBlocks.WALL_ASHWOOD_SIGN) 
             .group("wooden").unlockCriterionName("has_planks").build();
 
 
