@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "morenetherbiomes:block/ash_cactus_stem_top",
+    "side": "morenetherbiomes:block/ash_cactus_stem"
+  }
+}

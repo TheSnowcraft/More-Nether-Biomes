@@ -40,10 +40,14 @@ public class ModBlocks {
     public static final Block CUT_ASHSTONE_SLAB = registerBlock("cut_ashstone_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE).mapColor(MapColor.LIGHT_GRAY)));
 
-    public static final Block ASH_CACTUS_STEM = registerBlock("ash_cactus",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_STEM).mapColor(MapColor.TERRACOTTA_BLACK)));
-    public static final Block ASH_CACTUS_STEM_STRIPPED = registerBlock("ash_cactus_stripped",
-            new Block(FabricBlockSettings.copyOf(Blocks.STRIPPED_CRIMSON_STEM).mapColor(MapColor.TERRACOTTA_BLACK)));
+    public static final Block ASH_CACTUS_STEM = registerBlock("ash_cactus_stem",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_STEM)));
+    public static final Block ASH_CACTUS_HYPHAE = registerBlock("ash_cactus_hyphae",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_HYPHAE)));
+    public static final Block STRIPPED_ASH_CACTUS_STEM = registerBlock("stripped_ash_cactus_stem",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_CRIMSON_STEM)));
+    public static final Block STRIPPED_ASH_CACTUS_HYPHAE = registerBlock("stripped_ash_cactus_hyphae",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_CRIMSON_HYPHAE)));
     public static final Block ASHWOOD_PLANKS = registerBlock("ashwood_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).mapColor(MapColor.TERRACOTTA_BLACK)));
     public static final Block ASHWOOD_STAIRS = registerBlock("ashwood_stairs",

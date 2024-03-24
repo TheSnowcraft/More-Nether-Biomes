@@ -25,7 +25,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ASHSTONE_WALL);
 
         addDrop(ModBlocks.ASH_CACTUS_STEM);
-        addDrop(ModBlocks.ASH_CACTUS_STEM_STRIPPED);
+        addDrop(ModBlocks.ASH_CACTUS_HYPHAE);
+        addDrop(ModBlocks.STRIPPED_ASH_CACTUS_STEM);
+        addDrop(ModBlocks.STRIPPED_ASH_CACTUS_HYPHAE);
 
         addDrop(ModBlocks.ASHWOOD_PLANKS);
         addDrop(ModBlocks.ASHWOOD_STAIRS);

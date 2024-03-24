@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "morenetherbiomes:block/stripped_ash_cactus_hyphae",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "morenetherbiomes:block/stripped_ash_cactus_hyphae"
+    },
+    "axis=z": {
+      "model": "morenetherbiomes:block/stripped_ash_cactus_hyphae",
+      "x": 90
+    }
+  }
+}

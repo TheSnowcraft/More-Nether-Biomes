@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "morenetherbiomes:block/ash_cactus_stem_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "morenetherbiomes:block/ash_cactus_stem"
+    },
+    "axis=z": {
+      "model": "morenetherbiomes:block/ash_cactus_stem_horizontal",
+      "x": 90
+    }
+  }
+}

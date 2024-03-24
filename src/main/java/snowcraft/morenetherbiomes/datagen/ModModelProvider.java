@@ -27,8 +27,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoor(ModBlocks.ASHWOOD_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.ASHWOOD_TRAPDOOR);
 
-        blockStateModelGenerator.registerLog(ModBlocks.ASH_CACTUS_STEM);
-        blockStateModelGenerator.registerLog(ModBlocks.ASH_CACTUS_STEM_STRIPPED);
+        blockStateModelGenerator.registerLog(ModBlocks.ASH_CACTUS_STEM).log(ModBlocks.ASH_CACTUS_STEM).wood(ModBlocks.ASH_CACTUS_HYPHAE);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_ASH_CACTUS_STEM).log(ModBlocks.STRIPPED_ASH_CACTUS_STEM).wood(ModBlocks.STRIPPED_ASH_CACTUS_HYPHAE);
 
         ashwoodPool.family(ModBlocks.ASHWOOD_FAMILY);
 

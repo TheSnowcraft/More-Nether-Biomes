@@ -18,7 +18,9 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModBlocks.ASH_BLOCK)).entries((displayContext, entries) -> {
 
                         entries.add(ModBlocks.ASH_CACTUS_STEM);
-                        entries.add(ModBlocks.ASH_CACTUS_STEM_STRIPPED);
+                        entries.add(ModBlocks.ASH_CACTUS_HYPHAE);
+                        entries.add(ModBlocks.STRIPPED_ASH_CACTUS_STEM);
+                        entries.add(ModBlocks.STRIPPED_ASH_CACTUS_HYPHAE);
                         entries.add(ModBlocks.ASHWOOD_PLANKS);
                         entries.add(ModBlocks.ASHWOOD_STAIRS);
                         entries.add(ModBlocks.ASHWOOD_SLAB);
