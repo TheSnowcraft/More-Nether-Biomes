@@ -32,12 +32,16 @@ public class ModModelProvider extends FabricModelProvider {
 
         ashwoodPool.family(ModBlocks.ASHWOOD_FAMILY);
 
+        blockStateModelGenerator.registerRoots (ModBlocks.ASH_THISTLE,ModBlocks.POTTED_ASH_THISTLE);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.ASHWEED, BlockStateModelGenerator.TintType.NOT_TINTED);
+
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
 
         itemModelGenerator.register(ModItems.HANGING_ASHWOOD_SIGN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ASHWEED, Models.GENERATED);
 
         //itemModelGenerator.register(ModItems.ASHWOOD_BOAT, Models.GENERATED);
         //itemModelGenerator.register(ModItems.ASHWOOD_CHEST_BOAT, Models.GENERATED);

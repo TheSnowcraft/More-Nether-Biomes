@@ -80,6 +80,14 @@ public class ModBlocks {
     public static final Block WALL_HANGING_ASHWOOD_SIGN = Registry.register(Registries.BLOCK, new Identifier(MoreNetherBiomes.MOD_ID, "ashwood_wall_hanging_sign"),
             new TerraformWallHangingSignBlock(ASHWOOD_HANGING_SIGN_TEXTURE, ASHWOOD_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.CRIMSON_WALL_HANGING_SIGN).mapColor(MapColor.TERRACOTTA_BLACK)));
 
+    public static final Block ASHWEED = Registry.register(Registries.BLOCK, new Identifier(MoreNetherBiomes.MOD_ID,"ashweed"),
+            new AshPlantBlock(FabricBlockSettings.copyOf(Blocks.NETHER_SPROUTS).nonOpaque().mapColor(MapColor.GRAY)));
+
+    public static final Block ASH_THISTLE = registerBlock("ash_thistle",
+            new AshPlantBlock(FabricBlockSettings.copyOf(Blocks.WARPED_ROOTS).nonOpaque().mapColor(MapColor.GRAY)));
+
+    public static final Block POTTED_ASH_THISTLE = Registry.register(Registries.BLOCK, new Identifier(MoreNetherBiomes.MOD_ID, "potted_ash_thistle"),
+            new FlowerPotBlock(ASH_THISTLE, FabricBlockSettings.copyOf(Blocks.POTTED_WARPED_ROOTS).nonOpaque().mapColor(MapColor.GRAY)));
     public static final BlockFamily ASHWOOD_FAMILY = BlockFamilies.register(ModBlocks.ASHWOOD_PLANKS)
             .sign(ModBlocks.STANDING_ASHWOOD_SIGN, ModBlocks.WALL_ASHWOOD_SIGN) 
             .group("wooden").unlockCriterionName("has_planks").build();

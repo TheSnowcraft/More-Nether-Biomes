@@ -45,6 +45,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CUT_ASHSTONE_BLOCK);
                         entries.add(ModBlocks.CUT_ASHSTONE_SLAB);
 
+                        entries.add(ModBlocks.ASHWEED);
+                        entries.add(ModBlocks.ASH_THISTLE);
+
                     }).build());
     public static void registerItemGroups() {
         MoreNetherBiomes.LOGGER.info("Registering Item Groups for " + MoreNetherBiomes.MOD_ID);

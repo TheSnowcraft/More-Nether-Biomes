@@ -31,6 +31,9 @@
   "block.morenetherbiomes.ashwood_standing_sign": "Ashwood Sign",
   "block.morenetherbiomes.ashwood_hanging_sign": "Ashwood Hanging Sign",
 
+  "block.morenetherbiomes.ashweed": "Ashweed",
+  "block.morenetherbiomes.ash_thistle": "Ash Thistle",
+
 
   "itemgroup.morenetherbiomesgroup": "More Nether Biomes"
 }

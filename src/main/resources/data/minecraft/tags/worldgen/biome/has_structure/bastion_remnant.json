@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "morenetherbiomes:crimson_marsh",
+    "morenetherbiomes:ash_wastes",
+    "morenetherbiomes:warped_marsh",
+    "morenetherbiomes:crimson_field",
+    "morenetherbiomes:warped_field"
+  ]
+}

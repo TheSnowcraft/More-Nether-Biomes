@@ -19,6 +19,18 @@
           }
         },
         {
+          "biome": "morenetherbiomes:ash_wastes",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": -0.5,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.2
+          }
+        },
+        {
           "biome": "morenetherbiomes:lava_pools",
           "parameters": {
             "temperature": 0.5,
@@ -93,8 +105,8 @@
         {
           "biome": "morenetherbiomes:warped_marsh",
           "parameters": {
-            "temperature": 0.1,
-            "humidity": 0.6,
+            "temperature": 0.3,
+            "humidity": 0.55,
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
@@ -105,8 +117,8 @@
         {
           "biome": "morenetherbiomes:warped_field",
           "parameters": {
-            "temperature": -0.1,
-            "humidity": 0.3,
+            "temperature": -0.3,
+            "humidity": 0.35,
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,

@@ -15,5 +15,9 @@ public class MoreNetherBiomesClient implements ClientModInitializer {
 
         SpriteIdentifierRegistry.INSTANCE.addIdentifier(new SpriteIdentifier(TexturedRenderLayers.SIGNS_ATLAS_TEXTURE, ModBlocks.ASHWOOD_SIGN_TEXTURE));
         SpriteIdentifierRegistry.INSTANCE.addIdentifier(new SpriteIdentifier(TexturedRenderLayers.SIGNS_ATLAS_TEXTURE, ModBlocks.ASHWOOD_HANGING_SIGN_TEXTURE));
+
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ASHWEED, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ASH_THISTLE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_ASH_THISTLE, RenderLayer.getCutout());
     }
 }

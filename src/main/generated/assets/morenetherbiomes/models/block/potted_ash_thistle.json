@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/flower_pot_cross",
+  "textures": {
+    "plant": "morenetherbiomes:block/ash_thistle_pot"
+  }
+}
