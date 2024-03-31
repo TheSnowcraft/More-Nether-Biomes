@@ -58,8 +58,7 @@
     ],
     [],
     [
-      "minecraft:spring_lava",
-      "morenetherbiomes:ash_wastes_vegetation"
+      "minecraft:spring_lava"
     ]
   ],
   "has_precipitation": false,
