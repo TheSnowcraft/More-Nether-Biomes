@@ -2,7 +2,15 @@ package snowcraft.morenetherbiomes.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
+import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
+import net.minecraft.item.Items;
+import net.minecraft.loot.function.SetCountLootFunction;
+import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
+import net.minecraft.loot.provider.number.LootNumberProvider;
+import net.minecraft.loot.provider.number.LootNumberProviderType;
 import snowcraft.morenetherbiomes.block.ModBlocks;
+import snowcraft.morenetherbiomes.item.ModItems;
 
 public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public ModLootTableProvider(FabricDataOutput dataOutput) {
@@ -11,7 +19,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        addDrop(ModBlocks.ASH_BLOCK);
+        addDrop(ModBlocks.ASH_BLOCK, (Block block) -> this.drops((Block)block, ModItems.ASH, ConstantLootNumberProvider.create(4.0f)));
         addDrop(ModBlocks.ASHSTONE_BLOCK);
         addDrop(ModBlocks.CUT_ASHSTONE_BLOCK);
         addDrop(ModBlocks.SMOOTH_ASHSTONE_BLOCK);

@@ -17,6 +17,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.morenetherbiomesgroup"))
                     .icon(() -> new ItemStack(ModBlocks.ASH_BLOCK)).entries((displayContext, entries) -> {
 
+                        entries.add(ModItems.ASH);
                         entries.add(ModBlocks.ASH_CACTUS_STEM);
                         entries.add(ModBlocks.ASH_CACTUS_HYPHAE);
                         entries.add(ModBlocks.STRIPPED_ASH_CACTUS_STEM);
@@ -47,6 +48,7 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.ASHWEED);
                         entries.add(ModBlocks.ASH_THISTLE);
+                        entries.add(ModItems.ASHWALKER_SPAWN_EGG);
 
                     }).build());
     public static void registerItemGroups() {

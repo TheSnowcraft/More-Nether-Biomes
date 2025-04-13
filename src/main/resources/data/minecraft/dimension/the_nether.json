@@ -31,18 +31,6 @@
           }
         },
         {
-          "biome": "morenetherbiomes:lava_pools",
-          "parameters": {
-            "temperature": 0.5,
-            "humidity": -0.5,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0.375
-          }
-        },
-        {
           "biome": "minecraft:soul_sand_valley",
           "parameters": {
             "temperature": 0,

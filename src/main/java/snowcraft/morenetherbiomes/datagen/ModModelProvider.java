@@ -42,6 +42,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.HANGING_ASHWOOD_SIGN, Models.GENERATED);
         itemModelGenerator.register(ModItems.ASHWEED, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ASH, Models.GENERATED);
 
         //itemModelGenerator.register(ModItems.ASHWOOD_BOAT, Models.GENERATED);
         //itemModelGenerator.register(ModItems.ASHWOOD_CHEST_BOAT, Models.GENERATED);
