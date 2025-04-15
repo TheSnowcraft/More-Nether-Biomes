@@ -48,6 +48,9 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.ASHWEED);
                         entries.add(ModBlocks.ASH_THISTLE);
+
+                        entries.add(ModItems.ASH_BERRIES);
+
                         entries.add(ModItems.ASHWALKER_SPAWN_EGG);
 
                     }).build());

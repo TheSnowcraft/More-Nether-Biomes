@@ -15,4 +15,8 @@ public class ModEntities {
     public static final EntityType<AshwalkerEntity> ASHWALKER = Registry.register(Registries.ENTITY_TYPE,
             new Identifier(MoreNetherBiomes.MOD_ID, "ashwalker"),
             FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, AshwalkerEntity::new).dimensions(EntityDimensions.fixed(1f, 2f)).build());
+
+    public static void registerModEntities() {
+        MoreNetherBiomes.LOGGER.info("Registering Mod Entities for " + MoreNetherBiomes.MOD_ID);
+    }
 }

@@ -9,7 +9,7 @@ import snowcraft.morenetherbiomes.MoreNetherBiomes;
 import snowcraft.morenetherbiomes.entity.custom.AshwalkerEntity;
 
 public class AshwalkerRenderer extends MobEntityRenderer<AshwalkerEntity, AshwalkerModel<AshwalkerEntity>> {
-    private static final Identifier TEXTURE = new Identifier(MoreNetherBiomes.MOD_ID, "textures/entity/ashwalker/Ashwalker.png");
+    private static final Identifier TEXTURE = new Identifier(MoreNetherBiomes.MOD_ID, "textures/entity/ashwalker/ashwalker.png");
 
     public AshwalkerRenderer(EntityRendererFactory.Context context) {
         super(context, new AshwalkerModel<>(context.getPart(ModModelLayers.ASHWALKER)), 0.6f);

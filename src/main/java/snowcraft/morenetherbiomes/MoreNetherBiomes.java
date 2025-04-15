@@ -1,10 +1,14 @@
 package snowcraft.morenetherbiomes;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
+import net.minecraft.entity.mob.ZombieEntity;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import snowcraft.morenetherbiomes.block.ModBlocks;
+import snowcraft.morenetherbiomes.entity.ModEntities;
+import snowcraft.morenetherbiomes.entity.custom.AshwalkerEntity;
 import snowcraft.morenetherbiomes.item.ModItems;
 import snowcraft.morenetherbiomes.item.ModItemGroups;
 
@@ -23,6 +27,9 @@ public class MoreNetherBiomes implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModEntities.registerModEntities();
+
+		FabricDefaultAttributeRegistry.register(ModEntities.ASHWALKER, ZombieEntity.createZombieAttributes());
 
 		StrippableBlockRegistry.register(ModBlocks.ASH_CACTUS_STEM, ModBlocks.STRIPPED_ASH_CACTUS_STEM);
 		StrippableBlockRegistry.register(ModBlocks.ASH_CACTUS_HYPHAE, ModBlocks.STRIPPED_ASH_CACTUS_HYPHAE);

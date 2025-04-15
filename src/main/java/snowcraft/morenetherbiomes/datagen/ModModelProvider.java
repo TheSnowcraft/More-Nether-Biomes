@@ -2,9 +2,10 @@ package snowcraft.morenetherbiomes.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import net.minecraft.data.client.BlockStateModelGenerator;
-import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.Models;
+import net.minecraft.block.Blocks;
+import net.minecraft.data.client.*;
+import net.minecraft.item.Items;
+import net.minecraft.state.property.Properties;
 import snowcraft.morenetherbiomes.block.ModBlocks;
 import snowcraft.morenetherbiomes.item.ModItems;
 
@@ -34,6 +35,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerRoots (ModBlocks.ASH_THISTLE,ModBlocks.POTTED_ASH_THISTLE);
         blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.ASHWEED, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerAshBerryBush();
 
     }
 
@@ -42,9 +44,16 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.HANGING_ASHWOOD_SIGN, Models.GENERATED);
         itemModelGenerator.register(ModItems.ASHWEED, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ASH_BERRIES, Models.GENERATED);
         itemModelGenerator.register(ModItems.ASH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ASHWALKER_SPAWN_EGG, Models.GENERATED);
 
         //itemModelGenerator.register(ModItems.ASHWOOD_BOAT, Models.GENERATED);
         //itemModelGenerator.register(ModItems.ASHWOOD_CHEST_BOAT, Models.GENERATED);
+    }
+
+    public static void registerAshBerryBush(BlockStateModelGenerator blockStateModelGenerator) {
+        blockStateModelGenerator.registerItemModel(ModItems.ASH_BERRIES);
+        blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.ASH_BERRY_BUSH).coordinate(BlockStateVariantMap.create(Properties.AGE_3).register(stage -> BlockStateVariant.create().put(VariantSettings.MODEL, blockStateModelGenerator.createSubModel(ModBlocks.ASH_BERRY_BUSH, "_stage" + stage, Models.CROSS, TextureMap::cross)))));
     }
 }

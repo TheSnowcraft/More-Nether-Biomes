@@ -19,7 +19,7 @@ public class AshPlantBlock
     }
 
     protected boolean canPlantOnTop(BlockState floor, BlockView world, BlockPos pos) {
-        return floor.isIn(BlockTags.DIRT) || floor.isOf(Blocks.FARMLAND) || floor.isOf(Blocks.SAND) || floor.isOf(ModBlocks.ASH_BLOCK);
+        return floor.isOf(ModBlocks.ASH_BLOCK);
     }
 
     @Override
