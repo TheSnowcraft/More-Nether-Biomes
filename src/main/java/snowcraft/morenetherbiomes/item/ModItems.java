@@ -28,7 +28,7 @@ public class ModItems {
             new HangingSignItem(ModBlocks.HANGING_ASHWOOD_SIGN, ModBlocks.WALL_HANGING_ASHWOOD_SIGN, new FabricItemSettings().maxCount(16)));
     public static final Item ASHWEED = Items.register(ModBlocks.ASHWEED);
 
-    public static final Item ASH_BERRIES = Items.register("ash_berries", (Item)new AliasedBlockItem(ModBlocks.ASH_BERRY_BUSH, new Item.Settings().food(FoodComponents.SWEET_BERRIES)));
+    public static final Item ASH_BERRIES = registerItem("ash_berries", (Item)new AliasedBlockItem(ModBlocks.ASH_BERRY_BUSH, new Item.Settings().food(FoodComponents.SWEET_BERRIES)));
 
     public static final Item ASH = registerItem("ash", new Item(new FabricItemSettings()));
 

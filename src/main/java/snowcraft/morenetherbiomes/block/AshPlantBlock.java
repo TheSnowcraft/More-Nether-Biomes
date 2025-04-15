@@ -17,7 +17,6 @@ public class AshPlantBlock
     public AshPlantBlock(AbstractBlock.Settings settings) {
         super(settings);
     }
-
     protected boolean canPlantOnTop(BlockState floor, BlockView world, BlockPos pos) {
         return floor.isOf(ModBlocks.ASH_BLOCK);
     }

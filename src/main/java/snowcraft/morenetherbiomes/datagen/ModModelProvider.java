@@ -33,9 +33,9 @@ public class ModModelProvider extends FabricModelProvider {
 
         ashwoodPool.family(ModBlocks.ASHWOOD_FAMILY);
 
-        blockStateModelGenerator.registerRoots (ModBlocks.ASH_THISTLE,ModBlocks.POTTED_ASH_THISTLE);
+        blockStateModelGenerator.registerRoots(ModBlocks.ASH_THISTLE,ModBlocks.POTTED_ASH_THISTLE);
         blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.ASHWEED, BlockStateModelGenerator.TintType.NOT_TINTED);
-        blockStateModelGenerator.registerAshBerryBush();
+        registerAshBerryBush(blockStateModelGenerator);
 
     }
 

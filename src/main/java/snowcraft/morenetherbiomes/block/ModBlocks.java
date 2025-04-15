@@ -86,7 +86,7 @@ public class ModBlocks {
     public static final Block ASH_THISTLE = registerBlock("ash_thistle",
             new AshPlantBlock(FabricBlockSettings.copyOf(Blocks.WARPED_ROOTS).nonOpaque().mapColor(MapColor.GRAY)));
     public static final Block ASH_BERRY_BUSH = registerBlock("ash_berry_bush",
-            new AshPlantBlock(FabricBlockSettings.copyOf(Blocks.SWEET_BERRY_BUSH).nonOpaque().mapColor(MapColor.GRAY)));
+            new AshBerryBushBlock(FabricBlockSettings.copyOf(Blocks.SWEET_BERRY_BUSH).nonOpaque().mapColor(MapColor.GRAY)));
 
     public static final Block POTTED_ASH_THISTLE = Registry.register(Registries.BLOCK, new Identifier(MoreNetherBiomes.MOD_ID, "potted_ash_thistle"),
             new FlowerPotBlock(ASH_THISTLE, FabricBlockSettings.copyOf(Blocks.POTTED_WARPED_ROOTS).nonOpaque().mapColor(MapColor.GRAY)));
