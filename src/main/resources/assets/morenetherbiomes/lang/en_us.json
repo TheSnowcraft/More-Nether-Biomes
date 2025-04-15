@@ -33,6 +33,9 @@
 
   "block.morenetherbiomes.ashweed": "Ashweed",
   "block.morenetherbiomes.ash_thistle": "Ash Thistle",
+  "item.morenetherbiomes.ash_berries": "Ash Berries",
+
+  "item.morenetherbiomes.ashwalker_spawn_egg": "Ashwalker Spawn Egg",
 
 
   "itemgroup.morenetherbiomesgroup": "More Nether Biomes"

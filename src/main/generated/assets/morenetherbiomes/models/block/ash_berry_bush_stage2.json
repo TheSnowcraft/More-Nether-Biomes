@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "morenetherbiomes:block/ash_berry_bush_stage2"
+  }
+}
