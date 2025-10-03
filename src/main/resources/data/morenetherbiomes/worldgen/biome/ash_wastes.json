@@ -46,7 +46,6 @@
       "minecraft:spring_open",
       "minecraft:glowstone_extra",
       "minecraft:glowstone",
-      "minecraft:patch_crimson_roots",
       "minecraft:ore_magma",
       "minecraft:ore_soul_sand",
       "minecraft:ore_gravel_nether",
@@ -96,7 +95,7 @@
     "misc": [],
     "monster": [
       {
-        "type": "minecraft:skeleton",
+        "type": "morenetherbiomes:ashwalker",
         "maxCount": 5,
         "minCount": 2,
         "weight": 20
