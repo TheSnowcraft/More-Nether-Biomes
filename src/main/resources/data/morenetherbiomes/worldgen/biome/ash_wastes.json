@@ -44,6 +44,9 @@
     [],
     [
       "minecraft:spring_open",
+      "morenetherbiomes:patch_ashweed",
+      "morenetherbiomes:patch_ash_thistle",
+      "morenetherbiomes:patch_ash_berries",
       "minecraft:glowstone_extra",
       "minecraft:glowstone",
       "minecraft:ore_magma",
