@@ -1,0 +1,9 @@
+{
+  "parent": "block/cactus",
+  "textures": {
+    "particle": "block/ash_cactus_side",
+    "bottom": "block/ash_cactus_bottom",
+    "top": "block/ash_cactus_top",
+    "side": "block/ash_cactus_side"
+  }
+}

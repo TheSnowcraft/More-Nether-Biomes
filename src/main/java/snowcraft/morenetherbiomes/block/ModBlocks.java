@@ -7,12 +7,14 @@ import com.terraformersmc.terraform.sign.block.TerraformWallSignBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.data.family.BlockFamilies;
 import net.minecraft.data.family.BlockFamily;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import snowcraft.morenetherbiomes.MoreNetherBiomes;
 
@@ -40,6 +42,8 @@ public class ModBlocks {
     public static final Block CUT_ASHSTONE_SLAB = registerBlock("cut_ashstone_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE).mapColor(MapColor.LIGHT_GRAY)));
 
+    public static final Block ASH_CACTUS = Registry.register(Registries.BLOCK, new Identifier(MoreNetherBiomes.MOD_ID,"ash_cactus"),
+            new CactusBlock(FabricBlockSettings.copyOf(Blocks.CACTUS).mapColor(MapColor.TERRACOTTA_BLACK)));
     public static final Block ASH_CACTUS_STEM = registerBlock("ash_cactus_stem",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_STEM)));
     public static final Block ASH_CACTUS_HYPHAE = registerBlock("ash_cactus_hyphae",
@@ -93,7 +97,6 @@ public class ModBlocks {
     public static final BlockFamily ASHWOOD_FAMILY = BlockFamilies.register(ModBlocks.ASHWOOD_PLANKS)
             .sign(ModBlocks.STANDING_ASHWOOD_SIGN, ModBlocks.WALL_ASHWOOD_SIGN) 
             .group("wooden").unlockCriterionName("has_planks").build();
-
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
