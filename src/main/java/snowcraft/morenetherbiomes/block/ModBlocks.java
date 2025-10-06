@@ -43,7 +43,7 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE).mapColor(MapColor.LIGHT_GRAY)));
 
     public static final Block ASH_CACTUS = Registry.register(Registries.BLOCK, new Identifier(MoreNetherBiomes.MOD_ID,"ash_cactus"),
-            new CactusBlock(FabricBlockSettings.copyOf(Blocks.CACTUS).mapColor(MapColor.TERRACOTTA_BLACK)));
+            new AshCactusBlock(FabricBlockSettings.copyOf(Blocks.CACTUS).mapColor(MapColor.TERRACOTTA_BLACK)));
     public static final Block ASH_CACTUS_STEM = registerBlock("ash_cactus_stem",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_STEM)));
     public static final Block ASH_CACTUS_HYPHAE = registerBlock("ash_cactus_hyphae",

@@ -26,6 +26,7 @@ public class MoreNetherBiomesClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ASH_THISTLE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_ASH_THISTLE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ASH_BERRY_BUSH, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ASH_CACTUS, RenderLayer.getCutout());
 
 
         EntityRendererRegistry.register(ModEntities.ASHWALKER, AshwalkerRenderer::new);

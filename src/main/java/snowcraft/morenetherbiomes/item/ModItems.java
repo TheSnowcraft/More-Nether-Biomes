@@ -32,7 +32,7 @@ public class ModItems {
 
     public static final Item ASH = registerItem("ash", new Item(new FabricItemSettings()));
 
-
+    public static final Item ASH_CACTUS = Items.register(ModBlocks.ASH_CACTUS);
 
     public static final Item ASHWALKER_SPAWN_EGG = registerItem("ashwalker_spawn_egg",
             new SpawnEggItem(ModEntities.ASHWALKER, 0xd6d5d4, 0x918180, new FabricItemSettings()));
